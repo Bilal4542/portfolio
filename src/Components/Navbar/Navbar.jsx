@@ -17,7 +17,7 @@ const Navbar = () => {
             <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>Home</Link>
             <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>Skills</Link>
             <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>Projects</Link>
-            <Link activeClass='active' to='team' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>My Team</Link>
+            {/* <Link activeClass='active' to='team' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>My Team</Link> */}
             {/* <Link activeClass='active' to='https://github.com/Bilal4542' rel="noopener noreferrer" className='desktopMenuListItem'>GitHub</Link> */}
             <a href="https://github.com/Bilal4542" target="_blank" rel="noopener noreferrer" className='desktopMenuListItem'>GitHub</a>
             

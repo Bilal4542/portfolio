@@ -4,7 +4,7 @@ import Intro from "./Components/Intro/Intro";
 import Navbar from "./Components/Navbar/Navbar";
 import Projetcs from "./Components/Projects/Projetcs";
 import Skills from "./Components/Skills/Skills";
-import Team from "./Components/Team/Team";
+// import Team from "./Components/Team/Team";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Intro/>
       <Skills/>
       <Projetcs/>
-      <Team/>
+      {/* <Team/> */}
       <Contact/>
       <Footer/>
     </>
