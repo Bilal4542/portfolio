@@ -15,7 +15,7 @@ const Projetcs = () => {
       <span className="description">I take pride in paying attention to the smallest details and making sure that my work is pixel perfect. I am excited to bring my skills and experience to help businesses achieve their goals and create a strong online presence.</span>
       <div className="projectsimgs">
         <div className='projectHeadText'>
-        <a href='https://www.rains.com/' target='_blank' rel="noreferrer"><img className='projectImg' src={'https://images.pexels.com/photos/6214471/pexels-photo-6214471.jpeg'} alt="" /></a>
+        <a href='https://www.rains.com/' target='_blank' rel="noreferrer"><img className='projectImg' src={project1} alt="" /></a>
         <h3>E-Commerce Platform</h3>
         <p>E-commerce platform with an advanced product catalog, payment integration, and a user management system.</p>
         </div>
